@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>2</marker_id>
+    <map_id>1</map_id>
+    <title>Signacom</title>
+    <address>25 boulevard carnot  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-signacom.php</linkd>
+    <lat>50.6386511</lat>
+    <lng>3.065319499999987</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>3</marker_id>
+    <map_id>1</map_id>
+    <title>Sarl blas desmoutiez</title>
+    <address>11 rue jean du solier  59000 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-sarl-blas-desmoutiez.php</linkd>
+    <lat>50.6197265</lat>
+    <lng>3.0492706</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>4</marker_id>
+    <map_id>1</map_id>
+    <title>REPROFLASH</title>
+    <address>210 rue d arras  59000 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-reproflash.php</linkd>
+    <lat>50.6189855</lat>
+    <lng>3.0642299999999523</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>5</marker_id>
+    <map_id>1</map_id>
+    <title>REC (Regional de L'Entreprise et du Commerce)</title>
+    <address>568 place de la r&#xE9;publique  59260 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-rec-regional-de-lentreprise-du-commerce.php</linkd>
+    <lat>50.6145999</lat>
+    <lng>3.116348700000003</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>6</marker_id>
+    <map_id>1</map_id>
+    <title>Pokedit</title>
+    <address>23 cense au ble  59000 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-pokedit.php</linkd>
+    <lat>50.6475936</lat>
+    <lng>3.058398899999929</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>7</marker_id>
+    <map_id>1</map_id>
+    <title>PLANQUART</title>
+    <address>1 rue des moulins de garance  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-planquart.php</linkd>
+    <lat>50.6323871</lat>
+    <lng>3.073549400000047</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>8</marker_id>
+    <map_id>1</map_id>
+    <title>PGLM</title>
+    <address>29 rue esquermoise  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-pglm.php</linkd>
+    <lat>50.63764639999999</lat>
+    <lng>3.061513200000036</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>9</marker_id>
+    <map_id>1</map_id>
+    <title>NEP TV</title>
+    <address>14 rue du sec arembault  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-nep-tv.php</linkd>
+    <lat>50.635564</lat>
+    <lng>3.065657999999985</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>10</marker_id>
+    <map_id>1</map_id>
+    <title>MEURA</title>
+    <address>29 rue esquermoise  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-meura.php</linkd>
+    <lat>50.63764639999999</lat>
+    <lng>3.061513200000036</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>11</marker_id>
+    <map_id>1</map_id>
+    <title>L'ETUDIANT</title>
+    <address>24 facade de l esplanade  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-letudiant.php</linkd>
+    <lat>50.6408681</lat>
+    <lng>3.053901499999938</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>12</marker_id>
+    <map_id>1</map_id>
+    <title>Kappa Communication</title>
+    <address>79 rue winston churchill  59160 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-kappa-communication.php</linkd>
+    <lat>50.6306929</lat>
+    <lng>3.019782599999985</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>13</marker_id>
+    <map_id>1</map_id>
+    <title>Papeterie huyghe (Groupe Rouge Papier)</title>
+    <address>73 rue de paris  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-papeterie-huyghe-groupe-rouge-papier.php</linkd>
+    <lat>50.63467780000001</lat>
+    <lng>3.0676820999999563</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>14</marker_id>
+    <map_id>1</map_id>
+    <title>F Planquart</title>
+    <address>1 rue des moulins de garance  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-f-planquart.php</linkd>
+    <lat>50.6323871</lat>
+    <lng>3.073549400000047</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>15</marker_id>
+    <map_id>1</map_id>
+    <title>Centrale du Nord</title>
+    <address>12 rue lepelletier  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-centrale-du-nord.php</linkd>
+    <lat>50.6384357</lat>
+    <lng>3.063371899999993</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>16</marker_id>
+    <map_id>1</map_id>
+    <title>H2D IMPRIMERIES</title>
+    <address>119 rue chanzy  59260 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-h2d-imprimeries.php</linkd>
+    <lat>50.6256368</lat>
+    <lng>3.1041735000000017</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>17</marker_id>
+    <map_id>1</map_id>
+    <title>GFI</title>
+    <address>114 rue de cambrai  59000 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-gfi.php</linkd>
+    <lat>50.6239353</lat>
+    <lng>3.0747934999999416</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>18</marker_id>
+    <map_id>1</map_id>
+    <title>Gfi (EURL)</title>
+    <address>114 rue de cambrai  59000 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-gfi-eurl.php</linkd>
+    <lat>50.6239353</lat>
+    <lng>3.0747934999999416</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>19</marker_id>
+    <map_id>1</map_id>
+    <title>Flash-Copy (SARL)</title>
+    <address>27 rue du faisan  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-flash-copy-sarl.php</linkd>
+    <lat>50.632355</lat>
+    <lng>3.054519199999959</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>20</marker_id>
+    <map_id>1</map_id>
+    <title>DVD Imprimerie</title>
+    <address>16 impasse thermotte  59160 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-dvd-imprimerie.php</linkd>
+    <lat>50.6339081</lat>
+    <lng>3.0085266999999476</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>21</marker_id>
+    <map_id>1</map_id>
+    <title>Dupont Louis</title>
+    <address>18 rue louis bergot  59000 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-dupont-louis.php</linkd>
+    <lat>50.6191373</lat>
+    <lng>3.062673700000005</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>22</marker_id>
+    <map_id>1</map_id>
+    <title>Decoster Yves</title>
+    <address>107 rue henri ghesquiere  59160 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-decoster-yves.php</linkd>
+    <lat>50.6382777</lat>
+    <lng>3.015659000000028</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>23</marker_id>
+    <map_id>1</map_id>
+    <title>COPY-TOP Nationale - Liberte</title>
+    <address>114 rue nationale  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-copy-top-nationale-liberte.php</linkd>
+    <lat>50.6348642</lat>
+    <lng>3.0570701999999983</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>24</marker_id>
+    <map_id>1</map_id>
+    <title>COPY-TOP Flandres - Europe</title>
+    <address>46 rue des ponts de comines  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-copy-top-flandres-europe.php</linkd>
+    <lat>50.6369182</lat>
+    <lng>3.0676221999999598</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>25</marker_id>
+    <map_id>1</map_id>
+    <title>Centre d'Aide par le Travail (CAT)</title>
+    <address>49 rue de belle vue  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-centre-daide-par-le-travail-cat.php</linkd>
+    <lat>50.6287617</lat>
+    <lng>3.0858332000000246</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>26</marker_id>
+    <map_id>1</map_id>
+    <title>Casot Imprimerie</title>
+    <address>21 rue edouard delesalle  59800 Lille</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd>http://imprimeur-lille.fr/imprimerie-casot-imprimerie.php</linkd>
+    <lat>50.63250920000001</lat>
+    <lng>3.0665324000000282</lng>
+    <anim>0</anim>
+    <category>0</category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>
