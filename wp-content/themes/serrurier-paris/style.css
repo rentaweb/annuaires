@@ -1,0 +1,216 @@
+	/*
+Theme Name: Serrurier Paris
+Description: Thème pour le site de Serrurier Paris
+Author: Séb
+Template: frenchtouch
+*/
+
+@import url("../frenchtouch/style.css");
+.header-main {
+    background: url("header.jpeg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 350px;
+    padding-right: 0;
+}
+.entry-thumbnail {
+    box-shadow: 0 0 3px #AAAAAA;
+    float: left;
+    left: 17px;
+    margin-top: -31px;
+    padding: 8px;
+    position: absolute;
+    width: 170px;
+}
+.category .post.type-post {
+    margin-left: 193px;
+    width: 513px;
+}
+div.ufo-form span.ufo-cell-center {
+    width: 230px!important;
+}
+h1 {
+    font-size: 35px;
+    margin: 12px 0;
+    text-align: left;
+    font-family: 'Lucida Grande';
+}
+h2{font-family: 'Lucida Grande';}
+.site {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    max-width: 1030px;
+}
+body {
+    color: #635A58;
+    line-height: 1.5;
+}
+
+
+.site-header .home-link {
+    margin-bottom: -68px;
+    min-height: 68px;
+    padding: 0;
+}
+.site-header {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0)!important;
+}
+.site-footer {
+    background-color: #3A539B;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+.site-footer a {
+    color: #FFFFFF;
+}
+.archive-header {
+    background-color: #34495E;
+    width: 708px;
+}
+.sidebar .archive-meta {
+    line-height: 1.6;
+    padding-right: 10px;
+margin-top:25px;
+    text-align: justify;
+    margin-bottom:35px;
+}
+.navbar {
+    background-color: #3A539B;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    z-index:9999;
+}
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+    color: #FFFFFF;
+    font-style: normal;
+}
+.comment-respond {
+    display:none;
+}
+.widget {
+    background-color: rgba(58, 83, 155, 0.48);
+
+}
+.site-footer .sidebar-container {
+    background-color: #2A2666;
+    padding: 20px 0;
+}
+.site-footer .widget a {
+    color: #FFFFFF;
+}
+.home-link > img {
+    margin-left: 5px;
+    margin-top: -15px;
+    position: relative;
+    width: 33%;
+    z-index: 99999;
+}
+.format-video {background-color:#fff;}
+.coordonnees {
+    border-top: 1px solid #CDCAC8;
+    border-bottom: 1px solid #CDCAC8;
+    margin-left: 20px;
+	margin-top:25px;
+    max-width: 690px;
+    overflow: hidden;
+    width: 100%;
+}
+[class^="icon-"], [class*=" icon-"] {margin-right:5px;}
+
+.site-info > span {
+    margin-left: 25px;
+}
+.archive-meta > p {
+    padding: 15px;
+	color:#fff;
+}
+.entry-title {
+    color: #D74949;
+    font-weight: normal;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+#text-3.widget {
+    background-color: #92bfee;
+}
+.articles-number {
+    margin-left: 16px;
+    position: relative;
+    display: block;
+}
+.site-main {
+position: relative;
+min-height: 1035px;
+}
+.placeholder {
+    color: #999;
+    font-style: italic;
+}
+.ufo-fieldtype-6.ufo-customform-row.ufo-row-3334 {
+    position: relative;
+    top: -102px;
+}
+fieldset {
+    border: 1px solid #C0C0C0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+    height: 480px;
+}
+.sub-menu {
+    width: 500px;
+    height: 400px;
+}
+.page-numbers a, .page-numbers .current{
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #EAEAEA);
+    border-radius: 3px;
+    border-top: 1px solid #FFFFFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    color: #717171;
+    display: inline-block;
+    font-family: "Helvetica Neueu",Helvetica,Arial,sans-serif;
+    font-size: smaller !important;
+    margin: 1px 2px;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.page-numbers > li {
+    display: inline;
+}
+.current {
+    background-color: #676767!important;
+    background-image: -moz-linear-gradient(center top , #5F5F5F, #5C5C5C)!important;
+    border-color: #505050 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75) inset!important;
+    color: #F2F2F2 !important;
+    text-shadow: 0 1px 0 #000000;
+}
+#top-navbar {
+    background: none repeat scroll 0 0 #8e44ad;
+    display: block;
+    height: 49px;
+    position: absolute;
+    top: -17px;
+    width: 100%;
+}
+.widget .widget-title {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    color: #FFFFFF;
+    font: italic 300 20px "Source Sans Pro",Helvetica,sans-serif;
+    left: -20px;
+    margin: -20px 0 20px;
+    padding: 4px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+.site-name {
+    border-right: 1px solid #E74C3C;
+    color: #E74C3C;
+    font-size: 24px;
+    padding-right: 10px;
+}
+a {
+    color: #34495E;
+    text-decoration: none;
+}
