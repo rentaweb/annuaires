@@ -5,62 +5,83 @@
  * Used for both single and index/archive/search.
  *
  * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @subpackage Twenty_Thirteen
+ * @since Twenty Thirteen 1.0
  */
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php twentyfourteen_post_thumbnail(); ?>
-
-	<header class="entry-header">
-		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
-		<div class="entry-meta">
-			<span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'twentyfourteen' ) ); ?></span>
+		<header class="entry-header">
+		<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+		<div class="entry-thumbnail">
+			<?php the_post_thumbnail(); ?>
 		</div>
-		<?php
-			endif;
-
-			if ( is_single() ) :
-				the_title( '<h1 class="entry-title">', '</h1>' );
-			else :
-				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
-			endif;
-		?>
-
-		<div class="entry-meta">
-			<?php
-				if ( 'post' == get_post_type() )
-					twentyfourteen_posted_on();
-
-				if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-			?>
-			<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
-			<?php
-				endif;
-
-				edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
-			?>
-		</div><!-- .entry-meta -->
+		<?php endif; ?>
+		<?php if (is_home() ) : ?>
+		<h2 class="posts_title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+			<?php elseif (is_category() ) : ?>
+		<h2 class="posts_title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+		<?php endif; // is_front_page() ?>
+		
+		<?php if ( is_single() ) : ?>
+		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<?php endif; // is_single() ?>
+		
 	</header><!-- .entry-header -->
 
-	<?php if ( is_search() ) : ?>
+	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
+	<div itemscope itemtype="http://schema.org/LocalBusiness" class="coordonnees">
+
+
+  <h2><span class="name" itemprop="name"><?php
+                  $exemple_metas = get_post_custom();
+                  if( isset($exemple_metas['nom établissement'][0]) ){
+                  echo '<div class="name">'.$exemple_metas['nom établissement'][0].'</div>';
+                  }
+                  ?></span></h2>
+
+  <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <span itemprop="streetAddress"><?php
+                  $exemple_metas = get_post_custom();
+                  if( isset($exemple_metas['adresse'][0]) ){
+                  echo '<div class="address"><i class="icon-home"></i>'.$exemple_metas['adresse'][0].'</div>';
+                  }
+                  ?></span>
+
+  <span class="telephone" itemprop="telephone"><?php
+                  $exemple_metas = get_post_custom();
+                  if( isset($exemple_metas['téléphone'][0]) ){
+                  echo '<div class="telephone"><i class="icon-phone"></i> '.$exemple_metas['téléphone'][0].'</div>';
+                  }
+                  ?></span>
+
+  <meta class="openingHours" itemprop="openingHours"><?php
+                  $exemple_metas = get_post_custom();
+                  if( isset($exemple_metas['horaire ouverture'][0]) ){
+                  echo '<div class="openingHours"><i class="icon-time"></i>' .$exemple_metas['horaire ouverture'][0].'</div>';
+                  }
+                  ?>
+
+  <span class="map" itemprop="map"><?php
+                  $exemple_metas = get_post_custom();
+                  if( isset($exemple_metas['Google map'][0]) ){
+                  echo '<div class="map	"><iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=" '.$exemple_metas['Google map'][0].'&amp;output=embed"></iframe></div>';
+                  }
+                  ?></span></div></div>
+
 	<div class="entry-content">
-		<?php
-			the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyfourteen' ) );
-			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfourteen' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
-			) );
-		?>
+		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?>
+		<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 	</div><!-- .entry-content -->
 	<?php endif; ?>
+				<footer class="entry-meta">
+		
 
-	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', '', '</span></footer>' ); ?>
-</article><!-- #post-## -->
+		<?php if ( is_single() && get_the_author_meta( 'description' ) && is_multi_author() ) : ?>
+			<?php get_template_part( 'author-bio' ); ?>
+		<?php endif; ?>
+	</footer><!-- .entry-meta -->
+</article><!-- #post -->

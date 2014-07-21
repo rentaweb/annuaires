@@ -5,54 +5,37 @@
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @subpackage Twenty_Thirteen
+ * @since Twenty Thirteen 1.0
  */
 
 get_header(); ?>
+<link rel='stylesheet' href="/wp-content/themes/frenchtouch/category.css" type='text/css' media='all' />
 
-	<section id="primary" class="content-area">
+	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			<?php if ( have_posts() ) : ?>
-
+		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'twentyfourteen' ), single_cat_title( '', false ) ); ?></h1>
+				
 
-				<?php
-					// Show an optional term description.
-					$term_description = term_description();
-					if ( ! empty( $term_description ) ) :
-						printf( '<div class="taxonomy-description">%s</div>', $term_description );
-					endif;
-				?>
+				<?php if ( category_description() ) : // Show an optional category description ?>
+				<div class="archive-meta"><?if (is_category()) { $page = (get_query_var('paged')) ? get_query_var('paged') : 1; if ($page == 1) {echo category_description(); }}?></div>
+				<?php endif; ?>
 			</header><!-- .archive-header -->
 
-			<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
+			<?php /* The loop */ ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php get_template_part( 'content', get_post_format() ); ?>
+			<?php endwhile; ?>
 
-					/*
-					 * Include the post format-specific template for the content. If you want to
-					 * use this in a child theme, then include a file called called content-___.php
-					 * (where ___ is the post format) and that will be used instead.
-					 */
-					get_template_part( 'content', get_post_format() );
+<?php theme_pagination(); ?>
+		<?php else : ?>
+			<?php get_template_part( 'content', 'none' ); ?>
+		<?php endif; ?>
 
-					endwhile;
-					// Previous/next page navigation.
-					twentyfourteen_paging_nav();
-
-				else :
-					// If no content, include the "No posts found" template.
-					get_template_part( 'content', 'none' );
-
-				endif;
-			?>
 		</div><!-- #content -->
-	</section><!-- #primary -->
+	</div><!-- #primary -->
 
-<?php
-get_sidebar( 'content' );
-get_sidebar();
-get_footer();
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
